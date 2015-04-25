@@ -49,12 +49,28 @@ App.config(['$routeProvider', '$httpProvider', '$locationProvider' ,
             }
         ];
         
-        $routeProvider.
-            when('/', {
+        $routeProvider
+            .when('/', {
                 templateUrl: 'partials/home.html',
                 controller: 'HomeCtrl'
-            }).
-            otherwise({
+            })
+            .when('/te-quiero-verde', {
+                templateUrl: 'partials/te-quiero-verde.html',
+                controller: 'HomeCtrl'
+            })
+            .when('/corazon-curioso', {
+                templateUrl: 'partials/corazon-curioso.html',
+                controller: 'HomeCtrl'
+            })
+            .when('/buen-latido', {
+                templateUrl: 'partials/buen-latido.html',
+                controller: 'HomeCtrl'
+            })
+            .when('/cora-zona', {
+                templateUrl: 'partials/cora-zona.html',
+                controller: 'HomeCtrl'
+            })
+            .otherwise({
                 redirectTo: '/'
             });
         }

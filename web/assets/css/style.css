@@ -6,6 +6,8 @@ body {
 	overflow-x: hidden;
 }
 
+/* HOME */
+
 .slogan{
 	color: #939598;
 }
@@ -54,22 +56,22 @@ body {
 }
 
 .icon1{
-	top: 357px;
+	top: 365px;
 	right: 46px;
 }
 
 .icon2{
-	top: 325px;
+	top: 335px;
 	right: 46px;
 }
 
 .icon3{
-	top: 350px;
+	top: 360px;
 	right: 46px;
 }
 
 .icon4{
-	top: 350px;
+	top: 356px;
 	right: 46px;
 }
 
@@ -85,4 +87,18 @@ body {
 
 #home > footer > div img.food{
 	width: 100%;
+}
+
+/* TE QUIERO VERDE */
+.imgs>div{
+	margin: 0;
+	padding: 0;
+}
+
+.imgs img{
+	width: 100%;
+}
+
+.whitefonts{
+	color: #fff;
 }

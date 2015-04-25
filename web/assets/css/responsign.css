@@ -3,40 +3,41 @@
 /* Styles */
 }
 
+/* Smartphones_Big (landscape) ----------- */
+@media only screen and (max-width : 768px) {
+	#home > footer > div img.food {
+		display: none;
+	}
+
+	.icon1{
+		position: relative;
+		top: -92px;
+		right: 200px;
+	}
+
+	.icon2{
+		position: relative;
+		top: -125px;
+		right: 200px;
+	}
+
+	.icon3{
+		position: relative;
+		top: -100px;
+		right: 200px;
+	}
+
+	.icon4{
+		position: relative;
+		top: -102px;
+		right: 200px;
+	}
+}
+
+
 /* Smartphones (landscape) ----------- */
 @media only screen and (max-width : 321px) {
-	/* Maps */
-	#maps {
-		/*height: auto;*/
-		height: 460px;
-	}
-
-	#maps > .wrapper {
-		padding-top: 0px;
-		width: 100%;
-	}
-
-	#maps p, .map {
-		width: 100%;
-	}
-
-	/* Contacto  */
-	#contact .info > li {
-		float: none;
-		margin-left: 0px;
-	}
-
-	#contact .logo {
-		width: 100%;
-	}
-
-	#contact .info {
-		width: 290px;
-	}
-
-	#contact .mini-menu {
-		margin-bottom: 41px;
-	}
+	
 }
 
 /* Smartphones (portrait) ----------- */
