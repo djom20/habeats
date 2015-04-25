@@ -1,0 +1,75 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 321px) {
+	/* Maps */
+	#maps {
+		/*height: auto;*/
+		height: 460px;
+	}
+
+	#maps > .wrapper {
+		padding-top: 0px;
+		width: 100%;
+	}
+
+	#maps p, .map {
+		width: 100%;
+	}
+
+	/* Contacto  */
+	#contact .info > li {
+		float: none;
+		margin-left: 0px;
+	}
+
+	#contact .logo {
+		width: 100%;
+	}
+
+	#contact .info {
+		width: 290px;
+	}
+
+	#contact .mini-menu {
+		margin-bottom: 41px;
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+	
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

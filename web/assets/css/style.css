@@ -1,0 +1,88 @@
+::-webkit-scrollbar {  
+    /*display: none;*/
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.slogan{
+	color: #939598;
+}
+
+#home>footer>div{
+	padding: 0px;
+}
+
+.colorClass>p.first{
+	padding: 59px;
+}
+
+.colorClass>p{
+	padding: 78px;
+	color: #fff;
+	height: 180px;
+	margin: 0;
+}
+
+.limaColorClass{
+	background-color: #a1d294;
+}
+
+.rosaColorClass{
+	background-color: #f38bb2;
+}
+
+.azulColorClass{
+	background-color: #86abd2;
+}
+
+.amarilloColorClass{
+	background-color: #f9e086;
+}
+
+.title1, .title2, .title3{
+	display: block;
+}
+
+.icon{
+	width: 35px;
+	float: right;
+	position: absolute;
+	top: 325px;
+	right: 46px;
+}
+
+.icon1{
+	top: 357px;
+	right: 46px;
+}
+
+.icon2{
+	top: 325px;
+	right: 46px;
+}
+
+.icon3{
+	top: 350px;
+	right: 46px;
+}
+
+.icon4{
+	top: 350px;
+	right: 46px;
+}
+
+.logotipo{
+	margin-bottom: 10px;
+	width: 250px;
+}
+
+.logo{
+	height: 221px;
+	padding: 70px
+}
+
+#home > footer > div img.food{
+	width: 100%;
+}
