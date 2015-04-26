@@ -14,24 +14,32 @@
 	}
 
 	#icon1{
-		top: -92px;
+		top: -135px;
+		right: -60px;
 	}
 
 	#icon2{
-		top: -125px;
+		top: -157px;
+		right: -70px;
 	}
 
 	#icon3{
-		top: -100px;
+		top: -143px;
+		right: -65px;
 	}
 
 	#icon4{
-		top: -102px;
+		top: -147px;
+		right: -62px;
 	}
 
-	#icon1, #icon2, #icon3, #icon4{
-		right: -60px;
-	}
+	#teQuieroVerde .section3 {
+  		padding: 40px
+  	}
+
+  	#teQuieroVerde .section4 > .heartSection {
+  		background-size: 100% 100%;
+  	}
 }
 
 

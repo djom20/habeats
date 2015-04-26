@@ -16,12 +16,23 @@ body {
 	overflow-x: hidden;
 }
 
+/* HELPERS */
+a, a:hover, a:visited{
+	color: #fff;
+	font-family: 'dk_lemon_yellow_sun';
+	text-decoration: none;
+}
+
 /* HOME */
 
 .slogan{
 	color: #939598;
 	font-family: 'simplicity';
 	font-size: 30px;
+}
+
+p {
+	font-family: 'simplicity';
 }
 
 #home>footer>div{
@@ -49,8 +60,36 @@ body {
 	background-color: #a1d294;
 }
 
+.lima2ColorClass{
+	background-color: #b5dcc5;
+}
+
+.lima3ColorClass{
+	background-color: #abddde;
+}
+
+.lima4ColorClass{
+	background-color: #5bc4bd;
+}
+
+.lima5ColorClass{
+	background-color: #aadac5;
+}
+
+.lima6ColorClass{
+	background-color: #b6dbf4;
+}
+
+.lima7ColorClass{
+	background-color: #bfcde9;
+}
+
 .rosaColorClass{
 	background-color: #f38bb2;
+}
+
+.rosa2ColorClass{
+	background-color: #eeaccd;
 }
 
 .azulColorClass{
@@ -61,21 +100,41 @@ body {
 	background-color: #f9e086;
 }
 
-.title1{
+p > .title1{
 	font-size: 188%;
 }
 
-.title2{
+p > .title2{
 	font-size: 238%;
 }
 
-.title3{
+p > .title3{
 	font-size: 266%;
+}
+
+h1 > .title1{
+	font-size: 138%;
+	line-height: 30px;
+}
+
+h1 > .title2{
+	font-size: 188%;
+}
+
+h1 > .title3{
+	font-size: 216%;
+}
+
+h1 > .title2, h1 > .title3{
+	line-height: 74px;
 }
 
 .title1, .title2, .title3{
 	display: block;
 	font-family: 'dk_lemon_yellow_sun';
+}
+
+p > .title1, p > .title2, p > .title3{
 	line-height: 32px;
 }
 
@@ -84,8 +143,8 @@ body {
 }
 
 #icon1{
-	top: 549px;
-	right: 83px;
+	top: 542px;
+	right: 81px;
 }
 
 #icon1 > img {
@@ -93,8 +152,8 @@ body {
 }
 
 #icon2{
-	top: 535px;
-  	right: 84px;
+	top: 522px;
+	right: 82px;
 }
 
 #icon2 > img {
@@ -102,8 +161,8 @@ body {
 }
 
 #icon3{
-	top: 550px;
-	right: 82px;
+	top: 537px;
+	right: 78px;
 }
 
 #icon3 > img {
@@ -111,7 +170,7 @@ body {
 }
 
 #icon4{
-	top: 539px;
+	top: 525px;
   	right: 85px;
 }
 
@@ -145,4 +204,135 @@ body {
 
 .whitefonts{
 	color: #fff;
+}
+
+.greyfonts{
+	color: #939598;
+}
+
+#teQuieroVerde .section1 {
+	height: 308px;
+	padding: 29px;
+}
+
+#teQuieroVerde .section1 > h1{
+	margin: 0;
+}
+
+#teQuieroVerde .section2 {
+	height: 467px;
+}
+
+#teQuieroVerde .section2 > img.heart {
+	width: 319px;
+}
+
+#teQuieroVerde .section2 > .links {
+	top: -30px;
+  	position: relative;
+}
+
+#teQuieroVerde .section2 > h1 {
+	margin-top: 38px;
+}
+
+#teQuieroVerde .section3 {
+	padding: 100px;
+	padding-bottom: 138px;
+}
+
+#teQuieroVerde .section4 {
+	padding: 50px;
+	padding-bottom: 75px;
+}
+
+#teQuieroVerde .section4 > .heartSection {
+	background-image: url("../img/te_quiero_verde/heart_white.png");
+	background-repeat: no-repeat;
+	background-size: 30% 100%;
+	height: 281px;
+	background-position: 50%;
+}
+
+#teQuieroVerde .section4 > .heartSection ul {
+  	padding: 0;
+	padding-top: 70px;
+}
+
+#teQuieroVerde .section4 > .heartSection li {
+	list-style: none;
+	font-family: 'simplicity';
+	font-size: 24px;
+}
+
+#teQuieroVerde .section5 > .step1,
+#teQuieroVerde .section5 > .step2,
+#teQuieroVerde .section5 > .step3,
+#teQuieroVerde .section5 > .step4 {
+	padding: 47px;
+}
+
+#teQuieroVerde .section5 > .step1 > p,
+#teQuieroVerde .section5 > .step2 > p,
+#teQuieroVerde .section5 > .step3 > p,
+#teQuieroVerde .section5 > .step4 > p {
+	height: 140px;
+	margin-bottom: 229px;
+}
+
+#teQuieroVerde .section5 > .step1 > h1,
+#teQuieroVerde .section5 > .step2 > h1,
+#teQuieroVerde .section5 > .step3 > h1,
+#teQuieroVerde .section5 > .step4 > h1 {
+	margin-bottom: 174px;
+}
+
+#teQuieroVerde .section1 p,
+#teQuieroVerde .section3 p,
+#teQuieroVerde .section4 p,
+#teQuieroVerde .section5 p {
+	font-size: 26px;
+}
+
+a.prev {
+	background-image: url("../img/te_quiero_verde/prev.png");
+	background-repeat: no-repeat;
+	padding: 20px 49px;
+  	background-size: 100%;
+  	margin-right: 10px;
+}
+
+a.next {
+	background-image: url("../img/te_quiero_verde/next.png");
+	background-repeat: no-repeat;
+	padding: 20px 49px;
+  	background-size: 100%;
+  	margin-left: 10px;
+}
+
+/* CORAAZON CURIOSO */
+#corazonCurioso .section1{
+	padding: 65px;
+	padding-bottom: 84px;
+}
+
+#corazonCurioso .section1 > p {
+	font-size: 20px;
+}
+
+/* BOOTSTRAP */
+.carousel-inner {
+  	height: 464px;
+}
+
+.carousel-control.right {
+	right: 0;
+	left: auto;
+	background-image: none;
+	background-repeat: no-repeat;
+}
+
+.carousel-control.left {
+  	background-image: none;
+	background-repeat: no-repeat;
 }

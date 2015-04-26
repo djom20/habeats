@@ -5,9 +5,18 @@ $( document ).ready(function() {
 		inicio();
 	}, 300);
 
-
 	$(window).on('resize', function(){
-	     inicio();
+	    inicio();
+	});
+
+	$("#slide1 > .buttonPrev").click(function(e){
+		e.preventDefault();
+		alert("Click Prev");
+	});
+
+	$("#slide1 > .buttonNext").click(function(e){
+		e.preventDefault();
+		alert("Click Next");
 	});
 });
 
