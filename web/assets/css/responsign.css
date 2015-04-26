@@ -9,31 +9,43 @@
 		display: none;
 	}
 
-	.icon1{
+	.icon{
 		position: relative;
+	}
+
+	#icon1{
 		top: -92px;
-		right: 200px;
 	}
 
-	.icon2{
-		position: relative;
+	#icon2{
 		top: -125px;
-		right: 200px;
 	}
 
-	.icon3{
-		position: relative;
+	#icon3{
 		top: -100px;
-		right: 200px;
 	}
 
-	.icon4{
-		position: relative;
+	#icon4{
 		top: -102px;
-		right: 200px;
+	}
+
+	#icon1, #icon2, #icon3, #icon4{
+		right: -60px;
 	}
 }
 
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 580px) {
+	.logotipo {
+	  	width: 100%;
+	}
+
+	.slogan{
+		font-size: 20px;
+	}
+
+}
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (max-width : 321px) {

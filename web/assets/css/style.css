@@ -1,3 +1,13 @@
+@font-face {
+	font-family: 'dk_lemon_yellow_sun';
+	src: url('../fonts/dk_lemon_yellow_sun.otf');
+}
+
+@font-face {
+	font-family: 'simplicity';
+	src: url('../fonts/simplicity.ttf');
+}
+
 ::-webkit-scrollbar {  
     /*display: none;*/
 }
@@ -10,20 +20,28 @@ body {
 
 .slogan{
 	color: #939598;
+	font-family: 'simplicity';
+	font-size: 30px;
 }
 
 #home>footer>div{
 	padding: 0px;
 }
 
+.colorClass {
+	/*height: 334px;*/
+}
+
 .colorClass>p.first{
 	padding: 59px;
+	padding-top: 30%;
 }
 
 .colorClass>p{
 	padding: 78px;
+	padding-top: 40%;
 	color: #fff;
-	height: 180px;
+	height: 100%;
 	margin: 0;
 }
 
@@ -43,45 +61,71 @@ body {
 	background-color: #f9e086;
 }
 
+.title1{
+	font-size: 188%;
+}
+
+.title2{
+	font-size: 238%;
+}
+
+.title3{
+	font-size: 266%;
+}
+
 .title1, .title2, .title3{
 	display: block;
+	font-family: 'dk_lemon_yellow_sun';
+	line-height: 32px;
 }
 
 .icon{
-	width: 35px;
-	float: right;
 	position: absolute;
-	top: 325px;
-	right: 46px;
 }
 
-.icon1{
-	top: 365px;
-	right: 46px;
+#icon1{
+	top: 549px;
+	right: 83px;
 }
 
-.icon2{
-	top: 335px;
-	right: 46px;
+#icon1 > img {
+	width: 51px;
 }
 
-.icon3{
-	top: 360px;
-	right: 46px;
+#icon2{
+	top: 535px;
+  	right: 84px;
 }
 
-.icon4{
-	top: 356px;
-	right: 46px;
+#icon2 > img {
+	width: 36px;
+}
+
+#icon3{
+	top: 550px;
+	right: 82px;
+}
+
+#icon3 > img {
+	width: 51px;
+}
+
+#icon4{
+	top: 539px;
+  	right: 85px;
+}
+
+#icon4 > img {
+	width: 51px;
 }
 
 .logotipo{
 	margin-bottom: 10px;
-	width: 250px;
+	width: 450px;
 }
 
 .logo{
-	height: 221px;
+	height: 603px;
 	padding: 70px
 }
 
