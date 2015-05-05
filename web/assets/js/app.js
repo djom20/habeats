@@ -56,11 +56,11 @@ App.config(['$routeProvider', '$httpProvider', '$locationProvider' ,
             })
             .when('/te-quiero-verde', {
                 templateUrl: 'partials/te-quiero-verde.html',
-                controller: 'HomeCtrl'
+                controller: 'TeQuieroVerdeCtrl'
             })
             .when('/corazon-curioso', {
                 templateUrl: 'partials/corazon-curioso.html',
-                controller: 'HomeCtrl'
+                controller: 'CorazonCuriosoCtrl'
             })
             .when('/buen-latido', {
                 templateUrl: 'partials/buen-latido.html',

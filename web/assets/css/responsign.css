@@ -13,26 +13,6 @@
 		position: relative;
 	}
 
-	#icon1{
-		top: -135px;
-		right: -60px;
-	}
-
-	#icon2{
-		top: -157px;
-		right: -70px;
-	}
-
-	#icon3{
-		top: -143px;
-		right: -65px;
-	}
-
-	#icon4{
-		top: -147px;
-		right: -62px;
-	}
-
 	#teQuieroVerde .section3 {
   		padding: 40px
   	}
@@ -40,29 +20,269 @@
   	#teQuieroVerde .section4 > .heartSection {
   		background-size: 100% 100%;
   	}
-}
 
-
-/* Smartphones (landscape) ----------- */
-@media only screen and (max-width : 580px) {
-	.logotipo {
+  	#buenLatido .section5 form {
 	  	width: 100%;
 	}
 
-	.slogan{
-		font-size: 20px;
+	#home div > p {
+  		padding-left: 42px;
 	}
-
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen and (max-width : 321px) {
-	
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
-	
+	h1 > .title2 {
+		font-size: 128%;
+	}
+
+	#home .logotipo {
+  		width: 100%;
+	}
+
+	#home .slogan{
+		font-size: 20px;
+	}
+
+	#home div > p {
+  		padding-left: 118px;
+	}
+
+	#corazonCurioso .carousel-control.left {
+		top: 50%;
+		left: 54px;
+	}
+
+	#corazonCurioso .carousel-control.right {
+		right: 19%;
+		margin-top: 20%;
+	}
+
+	#corazonCurioso .carousel-control.right span {
+		top: 24%;
+		right: 39%;
+		position: absolute;
+	}
+
+	#corazonCurioso .carousel-control.left span {
+		position: absolute;
+		top: 11px;
+		left: 35px;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) and (max-width : 480px) {
+	#home .logotipo {
+  		width: 100%;
+	}
+
+	#home .slogan{
+		font-size: 20px;
+	}
+
+	#home div > p {
+  		padding-left: 215px;
+	}
+
+	#corazonCurioso .carousel-control.left {
+		top: 57%;
+  		left: 120px;
+	}
+
+	#corazonCurioso .carousel-control.right {
+		right: 27%;
+  		margin-top: 23%;
+	}
+
+	#corazonCurioso .carousel-control.right span {
+		top: 24%;
+		right: 39%;
+		position: absolute;
+	}
+
+	#corazonCurioso .carousel-control.left span {
+		position: absolute;
+		top: 11px;
+		left: 35px;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 481px) and (max-width : 580px) {
+	#home .logotipo {
+	  	width: 100%;
+	}
+
+	#home .slogan{
+		font-size: 20px;
+	}
+
+	#corazonCurioso .carousel-control.left {
+		top: 57%;
+  		left: 120px;
+	}
+
+	#corazonCurioso .carousel-control.right {
+		right: 27%;
+  		margin-top: 23%;
+	}
+
+	#corazonCurioso .carousel-control.right span {
+		top: 24%;
+		right: 39%;
+		position: absolute;
+	}
+
+	#corazonCurioso .carousel-control.left span {
+		position: absolute;
+		top: 11px;
+		left: 35px;
+	}
+}
+
+@media only screen and (min-width : 581px) and (max-width : 603px) {
+	#home div > p {
+  		padding-left: 250px;
+	}
+
+	#home div > a {
+		margin-left: -38px;
+	}
+
+	#corazonCurioso .carousel-control.left {
+		top: 62%;
+  		left: 184px;
+	}
+
+	#corazonCurioso .carousel-control.right {
+		right: 33%;
+		margin-top: 25%;
+	}
+
+	#corazonCurioso .carousel-control.right span {
+		top: 24%;
+		right: 39%;
+		position: absolute;
+	}
+
+	#corazonCurioso .carousel-control.left span {
+		position: absolute;
+		top: 11px;
+		left: 35px;
+	}
+}
+
+@media only screen and (min-width : 604px) and (max-width : 768px) {
+	#home div > p {
+  		padding-left: 44px;
+	}
+
+	#corazonCurioso .carousel-control.left {
+		top: 67%;
+		left: 267px;
+	}
+
+	#corazonCurioso .carousel-control.right {
+		right: 37%;
+  		margin-top: 27%;
+	}
+
+	#corazonCurioso .carousel-control.right span {
+		top: 24%;
+		right: 39%;
+		position: absolute;
+	}
+
+	#corazonCurioso .carousel-control.left span {
+		position: absolute;
+		top: 11px;
+		left: 35px;
+	}
+}
+
+@media only screen and (min-width : 769px) and (max-width : 966px) {
+	#home div > p {
+  		padding-left: 70px;
+	}
+
+	#corazonCurioso .carousel-control.left {
+		top: 67%;
+  		left: 344px;
+	}
+
+	#corazonCurioso .carousel-control.right {
+		right: 38%;
+  		margin-top: 27%;
+	}
+
+	#corazonCurioso .carousel-control.right span {
+		top: 24%;
+		right: 39%;
+		position: absolute;
+	}
+
+	#corazonCurioso .carousel-control.left span {
+		position: absolute;
+		top: 11px;
+		left: 35px;
+	}
+}
+
+@media only screen and (min-width : 967px) and (max-width : 1024px) {
+	#home div > p {
+  		padding-left: 78px;
+	}
+
+	#corazonCurioso .carousel-control.left {
+		top: 67%;
+		left: 364px;
+	}
+
+	#corazonCurioso .carousel-control.right {
+		right: 38%;
+		margin-top: 27%;
+	}
+
+	#corazonCurioso .carousel-control.right span {
+		top: 24%;
+		right: 39%;
+		position: absolute;
+	}
+
+	#corazonCurioso .carousel-control.left span {
+		position: absolute;
+		top: 11px;
+		left: 35px;
+	}
+}
+
+@media only screen and (min-width : 1025px) and (max-width : 1680px) {
+	#home div > p {
+  		padding-left: 175px;
+	}
+
+	#corazonCurioso .carousel-control.left {
+		top: 66.5%;
+		left: 500px;
+	}
+
+	#corazonCurioso .carousel-control.right {
+		right: 38%;
+		margin-top: 27%;
+	}
+
+	#corazonCurioso .carousel-control.right span {
+		position: absolute;
+		top: 36%;
+  		right: 43%;
+	}
+
+	#corazonCurioso .carousel-control.left span {
+		left: 65px;
+		position: absolute;
+		top: 26px;
+	}
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -92,5 +312,125 @@
 
 /* iPhone 4 ----------- */
 @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
+	/* Styles */
+	#home div > p {
+  		padding-left: 118px;
+	}
+}
+
+/* mac 11" */
+@media only screen and (min-width : 1366px) and (max-width : 1366px) {
+	#home div > p {
+		padding-left: 37%;
+	}	
+
+	#corazonCurioso .carousel-control.left {
+		top: 67%;
+		left: 486px;
+	}
+
+	#corazonCurioso .carousel-control.right {
+		right: 38%;
+		margin-top: 27%;
+	}
+
+	#corazonCurioso .carousel-control.right span {
+		position: absolute;
+		top: 36%;
+  		right: 43%;
+	}
+
+	#corazonCurioso .carousel-control.left span {
+		left: 65px;
+		position: absolute;
+		top: 26px;
+	}
+}
+
+/* mac 13" */
+@media only screen and (min-width : 1280px) and (max-width : 1280px) {
+	#home div > p {
+		padding-left: 37%;
+	}
+}
+
+/* mac 15" */
+@media only screen and (min-width : 1440px) and (max-width : 1440px) {
+	#home div > p {
+		padding-left: 37%;
+	}
+}
+
+/* mac 17" */
+@media only screen and (min-width : 1920px) and (max-width : 1920px) {
+	#home div > p {
+		padding-left: 45%;
+	}
+
+	#corazonCurioso .carousel-control.left {
+		top: 66.5%;
+		left: 678px;
+	}
+
+	#corazonCurioso .carousel-control.right {
+		right: 38%;
+		margin-top: 27%;
+	}
+
+	#corazonCurioso .carousel-control.right span {
+		position: absolute;
+		top: 36%;
+  		right: 43%;
+	}
+
+	#corazonCurioso .carousel-control.left span {
+		left: 90px;
+		position: absolute;
+		top: 37px;
+	}
+}
+
+/* mac 27" */
+@media only screen and (min-width : 2560px) and (max-width : 2560px) {
+	#home div > p {
+		padding-left: 45%;
+	}
+
+	#home div > a > img {
+		margin-left: -45px !important;
+	}	
+
+	#home div > p {
+  		padding-left: 285px;
+	}
+
+	#corazonCurioso .carousel-control.left {
+		top: 67%;
+		left: 908px;
+	}
+
+	#corazonCurioso .carousel-control.right {
+		right: 38%;
+		margin-top: 27%;
+	}
+
+	#corazonCurioso .carousel-control.right span {
+		font-size: 39px;
+		position: absolute;
+		right: 43%;
+		top: 32%;
+	}
+
+	#corazonCurioso .carousel-control.left span {
+		font-size: 39px;
+		left: 124px;
+		position: absolute;
+		top: 46px;
+	}
+}
+
+@media only screen and (min-width : 2880px) and (max-width : 2880px) {
+	#home div > p {
+		padding-left: 95px;
+	}
 }

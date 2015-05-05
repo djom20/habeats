@@ -17,43 +17,29 @@ body {
 }
 
 /* HELPERS */
-a, a:hover, a:visited{
+a, a:hover, a:visited, a:focus {
 	color: #fff;
 	font-family: 'dk_lemon_yellow_sun';
 	text-decoration: none;
+	cursor: pointer;
 }
 
-/* HOME */
-
-.slogan{
-	color: #939598;
-	font-family: 'simplicity';
-	font-size: 30px;
+h1 {
+	margin: 0;
+	margin-bottom: 13px;
 }
 
 p {
 	font-family: 'simplicity';
+	line-height: 26px;
 }
 
-#home>footer>div{
-	padding: 0px;
-}
-
-.colorClass {
-	/*height: 334px;*/
-}
-
-.colorClass>p.first{
-	padding: 59px;
-	padding-top: 30%;
-}
-
-.colorClass>p{
-	padding: 78px;
-	padding-top: 40%;
+.whitefonts{
 	color: #fff;
-	height: 100%;
-	margin: 0;
+}
+
+.greyfonts{
+	color: #939598;
 }
 
 .limaColorClass{
@@ -94,6 +80,22 @@ p {
 
 .azulColorClass{
 	background-color: #86abd2;
+}
+
+.azul2ColorClass{
+	background-color: #B6DBF4;
+}
+
+.moradoColorClass{
+	background-color: #BFCDE9;
+}
+
+.morado2ColorClass{
+	background-color: #DCD7EB;
+}
+
+.morado3ColorClass{
+	background-color: #E3BCD9;
 }
 
 .amarilloColorClass{
@@ -138,52 +140,87 @@ p > .title1, p > .title2, p > .title3{
 	line-height: 32px;
 }
 
-.icon{
-	position: absolute;
+a.prev {
+	background-image: url("../img/prev.png");
+	background-repeat: no-repeat;
+	padding: 22px 49px;
+  	background-size: 100%;
+  	margin-right: 10px;
 }
 
-#icon1{
-	top: 542px;
-	right: 81px;
+a.next {
+	background-image: url("../img/next.png");
+	background-repeat: no-repeat;
+	padding: 22px 49px;
+  	background-size: 100%;
+  	margin-left: 10px;
 }
 
-#icon1 > img {
+/* HOME */
+#home .slogan{
+	color: #939598;
+	font-family: 'simplicity';
+	font-size: 30px;
+}
+
+#home>footer>div{
+	padding: 0px;
+}
+
+#home div {
+	margin: 0;
+}
+
+#home div > p {
+	padding: 0;
+	padding-left: 140px;
+}
+
+#home div > a {
+	padding: 0;
+}
+
+#home div.section1 div > a > img {
+	padding-top: 53px;
 	width: 51px;
 }
 
-#icon2{
-	top: 522px;
-	right: 82px;
+#home div.section2 div > a > img {
+	margin-left: 29px;
+	width: 39px;
 }
 
-#icon2 > img {
-	width: 36px;
+#home div.section3 div > a > img {
+	margin-left: 10px;
+	margin-top: 17px;
+	width: 53px;
 }
 
-#icon3{
-	top: 537px;
-	right: 78px;
+#home div.section4 div > a > img {
+	margin-left: 2px;
+	margin-top: 7px;
+	width: 54px;
 }
 
-#icon3 > img {
-	width: 51px;
+#home div.section1 div.colorClass {
+	padding-top: 94px;
+	padding-bottom: 110px;
+	max-height: 302px;
 }
 
-#icon4{
-	top: 525px;
-  	right: 85px;
+#home div div.colorClass {
+	padding-top: 126px;
+	padding-bottom: 110px;
+	min-height: 302px;
+	max-height: 302px;
 }
 
-#icon4 > img {
-	width: 51px;
-}
-
-.logotipo{
+#home .logotipo{
 	margin-bottom: 10px;
 	width: 450px;
 }
 
-.logo{
+#home .logo{
 	height: 603px;
 	padding: 70px
 }
@@ -202,16 +239,7 @@ p > .title1, p > .title2, p > .title3{
 	width: 100%;
 }
 
-.whitefonts{
-	color: #fff;
-}
-
-.greyfonts{
-	color: #939598;
-}
-
 #teQuieroVerde .section1 {
-	height: 308px;
 	padding: 29px;
 }
 
@@ -233,7 +261,7 @@ p > .title1, p > .title2, p > .title3{
 }
 
 #teQuieroVerde .section2 > h1 {
-	margin-top: 38px;
+	padding-top: 38px;
 }
 
 #teQuieroVerde .section3 {
@@ -242,8 +270,12 @@ p > .title1, p > .title2, p > .title3{
 }
 
 #teQuieroVerde .section4 {
-	padding: 50px;
-	padding-bottom: 75px;
+	/*padding: 50px;
+	padding-bottom: 75px;*/
+}
+
+#teQuieroVerde .section4 img{
+	width: 100%;
 }
 
 #teQuieroVerde .section4 > .heartSection {
@@ -292,37 +324,122 @@ p > .title1, p > .title2, p > .title3{
 #teQuieroVerde .section4 p,
 #teQuieroVerde .section5 p {
 	font-size: 26px;
+	max-width: 447px;
+  	margin: 0 auto;
 }
 
-a.prev {
-	background-image: url("../img/te_quiero_verde/prev.png");
-	background-repeat: no-repeat;
-	padding: 20px 49px;
-  	background-size: 100%;
-  	margin-right: 10px;
-}
-
-a.next {
-	background-image: url("../img/te_quiero_verde/next.png");
-	background-repeat: no-repeat;
-	padding: 20px 49px;
-  	background-size: 100%;
-  	margin-left: 10px;
-}
-
-/* CORAAZON CURIOSO */
+/* CORAZON CURIOSO */
 #corazonCurioso .section1{
 	padding: 65px;
 	padding-bottom: 84px;
 }
 
 #corazonCurioso .section1 > p {
-	font-size: 20px;
+	font-size: 26px;
+}
+
+#corazonCurioso .carousel-caption > .heartSection {
+
+}
+
+#corazonCurioso .carousel-caption > .heartSection p {
+	font-family: 'simplicity';
+	font-size: 24px;
+	margin: 0 auto;
+	max-width: 230px;
+}
+
+/* BUEN LATIDO */
+
+#buenLatido .section1 {
+	padding: 64px;
+	padding-bottom: 83px;
+}
+
+#buenLatido .section2,
+#buenLatido .section3,
+#buenLatido .section4,
+#buenLatido .section5 {
+	padding: 85px;
+	padding-bottom: 84px;
+}
+
+#buenLatido .section2 > h1,
+#buenLatido .section3 > h1,
+#buenLatido .section4 > h1,
+#buenLatido .section5 > h1 {
+	margin-bottom: 80px;
+}
+
+#buenLatido .section2 > a,
+#buenLatido .section3 > a,
+#buenLatido .section4 > a {
+	margin-bottom: 35px;
+	display: block;
+}
+
+#buenLatido .section2 > a:last-child,
+#buenLatido .section3 > a:last-child,
+#buenLatido .section4 > a:last-child {
+	margin-bottom: 0px;
+}
+
+#buenLatido a,
+#buenLatido p {
+	font-size: 26px;
+}
+
+#buenLatido .section5 form {
+  	margin: 0 auto;
+	width: 31em;
+}
+
+/* CORA-ZONA */
+#coraZona .section1 {
+	padding: 104px;
+}
+
+#coraZona a,
+#coraZona p {
+	font-size: 26px;
 }
 
 /* BOOTSTRAP */
-.carousel-inner {
+/*.carousel-inner {
   	height: 464px;
+}*/
+
+#corazonCurioso .carousel-control {
+	width: 4%;
+}
+
+#corazonCurioso .carousel-control.left {
+	left: 36%;
+	background-image: url("../img/prev.png");
+	background-repeat: no-repeat;
+  	background-size: 100%;
+  	margin-right: 10px;
+  	width: 12%;
+	height: 14%;
+}
+
+#corazonCurioso .carousel-control.left {
+	top: 72%;
+}
+
+#corazonCurioso .carousel-control.right {
+	right: 38%;
+	background-image: url("../img/next.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 12%;
+	height: 14%;
+	margin-top: 29%;
+}
+
+#corazonCurioso .carousel-control.right span {
+	top: 34%;
+  	right: 41%;
 }
 
 .carousel-control.right {
@@ -335,4 +452,13 @@ a.next {
 .carousel-control.left {
   	background-image: none;
 	background-repeat: no-repeat;
+}
+
+#corazonCurioso .carousel-caption {
+  	top: 150px;
+}
+
+#corazonCurioso .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  	margin: 0 auto;
+	width: 100%;
 }
