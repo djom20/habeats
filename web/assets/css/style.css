@@ -389,6 +389,11 @@ a.next {
 	font-size: 26px;
 }
 
+#buenLatido .section1 p {
+	margin: 0 auto;
+	max-width: 447px;
+}
+
 #buenLatido .section5 form {
   	margin: 0 auto;
 	width: 31em;

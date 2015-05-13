@@ -1,16 +1,16 @@
 <section id="teQuieroVerde" class="text-center whitefonts">
 	<div class="row imgs" style="margin: 0px;">
 		<div class="col-md-3 col-sm-3 col-xs-3">
-			<img src="assets/img/te_quiero_verde/recetas/1/foto1.jpg">
+			<img src="./assets/img/te_quiero_verde/recetas/{{ receta_current.index }}/foto1.jpg">
 		</div>
 		<div class="col-md-3 col-sm-3 col-xs-3">
-			<img src="assets/img/te_quiero_verde/recetas/1/foto2.jpg">
+			<img src="./assets/img/te_quiero_verde/recetas/{{ receta_current.index }}/foto2.jpg">
 		</div>
 		<div class="col-md-3 col-sm-3 col-xs-3">
-			<img src="assets/img/te_quiero_verde/recetas/1/foto3.jpg">
+			<img src="./assets/img/te_quiero_verde/recetas/{{ receta_current.index }}/foto3.jpg">
 		</div>
 		<div class="col-md-3 col-sm-3 col-xs-3">
-			<img src="assets/img/te_quiero_verde/recetas/1/foto4.jpg">
+			<img src="./assets/img/te_quiero_verde/recetas/{{ receta_current.index }}/foto4.jpg">
 		</div>
 	</div>
 	<div class="section1 limaColorClass">
@@ -27,10 +27,10 @@
 		<h1>
 			<span style="line-height: 51px; font-size: 115%;" class="title2">prepáralo</span>
 		</h1>
-		<img src="{{ receta_current.logo }}" class="heart">
+		<img src="./assets/img/te_quiero_verde/recetas/{{ receta_current.index }}/heart.png" class="heart">
 		<div class="links">
-			<a href="" class="prev">atrás</a>
-			<a href="" class="next">sigue</a>
+			<a href="" class="prev" ng-click="change(receta_current.id, 'prev');">atrás</a>
+			<a href="" class="next" ng-click="change(receta_current.id, 'next');">sigue</a>
 		</div>
 	</div>
 	<div class="section3 lima3ColorClass">
@@ -55,7 +55,7 @@
 				<li>Aceite de oliva</li>
 			</ul>
 		</div> -->
-		<img src="{{ receta_current.ingredients }}" alt="">
+		<img src="./assets/img/te_quiero_verde/recetas/{{ receta_current.index }}/ingredientes.png" alt="">
 	</div>
 	<div class="section5">
 		<div class="col-md-3 col-sm-3 limaColorClass step1">
