@@ -148,18 +148,34 @@ Appc.controller('HomeCtrl', ['$scope', '$http', '$location',
 .controller('CorazonCuriosoCtrl', ['$scope', '$http', '$location',
     function($scope, $http, $location) {
         console.log("Init Controller CorazonCuriosoCtrl");
-		$("#slide1").carousel({
-  			interval: 50000
-		});
+        $("#slide1").carousel({
+            interval: 50000
+        });
 
         $scope.clickPrev = function(){
-			// console.log("Click Prev");
-			$("#slide1").carousel('prev');
+            // console.log("Click Prev");
+            $("#slide1").carousel('prev');
         };
 
         $scope.clickNext = function(){
-			// console.log("Click Next");
-			$("#slide1").carousel('next');
+            // console.log("Click Next");
+            $("#slide1").carousel('next');
+        };
+    }]
+)
+.controller('BuenLatidoCtrl', ['$scope', '$http', '$location',
+    function($scope, $http, $location) {
+        console.log("Init Controller BuenLatidoCtrl");
+        $scope.myUrl = null;
+
+        $scope.sendUrl = function(){
+            if($scope.myUrl != null){
+                alert('Gracias por Compartir este contenido, pronto lo publicaremos.');
+                console.log($scope.myUrl);
+                $scope.myUrl = '';
+            }else{
+                alert('Debe ingresar el contenido antes de enviar');
+            }
         };
     }]
 );

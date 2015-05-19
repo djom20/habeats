@@ -71,9 +71,9 @@
 		<p>Escribe aqui el link de lo que tu corazón quiere compartir</p>
 		<form action="">
 			<div class="input-group input-group-lg">
-      			<input type="text" class="form-control">
+      			<input ng-model="myUrl" type="text" class="form-control">
       			<span class="input-group-btn">
-        			<button class="btn btn-default" type="button">Enviar</button>
+        			<button ng-click="sendUrl()" class="btn btn-default" type="button">Enviar</button>
       			</span>
     		</div>
 		</form>

@@ -156,6 +156,10 @@ a.next {
   	margin-left: 10px;
 }
 
+.btn-default {
+  	background-image: none;
+}
+
 /* HOME */
 #home .slogan{
 	color: #939598;

@@ -64,7 +64,7 @@ App.config(['$routeProvider', '$httpProvider', '$locationProvider' ,
             })
             .when('/buen-latido', {
                 templateUrl: 'partials/buen-latido.html',
-                controller: 'HomeCtrl'
+                controller: 'BuenLatidoCtrl'
             })
             .when('/cora-zona', {
                 templateUrl: 'partials/cora-zona.html',
