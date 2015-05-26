@@ -68,7 +68,7 @@ App.config(['$routeProvider', '$httpProvider', '$locationProvider' ,
             })
             .when('/cora-zona', {
                 templateUrl: 'partials/cora-zona.html',
-                controller: 'HomeCtrl'
+                controller: 'CoraZonaCtrl'
             })
             .otherwise({
                 redirectTo: '/'

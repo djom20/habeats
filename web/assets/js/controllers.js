@@ -143,6 +143,10 @@ Appc.controller('HomeCtrl', ['$scope', '$http', '$location',
                 }
             }
         };
+
+        $scope.goTo = function(){
+            $('html,body').animate({scrollTop: 0}, 600,'swing');
+        }
     }]
 )
 .controller('CorazonCuriosoCtrl', ['$scope', '$http', '$location',
@@ -177,5 +181,18 @@ Appc.controller('HomeCtrl', ['$scope', '$http', '$location',
                 alert('Debe ingresar el contenido antes de enviar');
             }
         };
+
+        $scope.goTo = function(){
+            $('html,body').animate({scrollTop: 0}, 600,'swing');
+        }
+    }]
+)
+.controller('CoraZonaCtrl', ['$scope', '$http', '$location',
+    function($scope, $http, $location) {
+        console.log("Init Controller BuenLatidoCtrl");
+        $("#slide1, #slide2").carousel({
+            interval: 8000,
+            pause: "false"
+        });
     }]
 );

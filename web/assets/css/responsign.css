@@ -13,9 +13,14 @@
 		position: relative;
 	}
 
-	#teQuieroVerde .section3 {
+	/*#teQuieroVerde .section3 {
   		padding: 40px
-  	}
+  	}*/
+
+  	#teQuieroVerde .section4 img {
+	  	width: 250%;
+	  	margin-left: -72%;
+	}
 
   	#teQuieroVerde .section4 > .heartSection {
   		background-size: 100% 100%;
@@ -26,14 +31,55 @@
 	}
 
 	#home div > p {
-  		padding-left: 42px;
+  		padding-left: 44%;
+	}
+
+	#coraZona .section1 {
+  		padding: 5%;
+	}
+
+	#teQuieroVerde .section3 ,#teQuieroVerde .section5 > .step1, #teQuieroVerde .section5 > .step2, #teQuieroVerde .section5 > .step3, #teQuieroVerde .section5 > .step4 {
+	  	padding: 29px;
+	}
+
+	#coraZona > #slide1 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  		margin-left: -72%;
+		width: 250%;
+		max-width: 250%;
+	}
+
+	#coraZona > #slide2 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  		margin-left: -72%;
+		width: 250%;
+		max-width: 250%;
+	}
+
+	#teQuieroVerde .section5 > .step1 > p, #teQuieroVerde .section5 > .step2 > p, #teQuieroVerde .section5 > .step3 > p, #teQuieroVerde .section5 > .step4 > p {
+  		margin-bottom: 134px;
+	}
+
+	#corazonCurioso .carousel-control.right {
+	  	right: 25%;
+	}
+
+	#corazonCurioso .carousel-control.left {
+  		left: 22%;
 	}
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
-	h1 > .title2 {
-		font-size: 128%;
+	h1 > .title2 { /* nuevo */
+		font-size: 80%;
+	}
+
+	h1 > .title1 { /* nuevo */
+	  	font-size: 88%;
+	  	line-height: 30px;
+	}
+
+	h1 > .title3 { /* nuevo */
+ 		font-size: 100%;
 	}
 
 	#home .logotipo {
@@ -45,17 +91,17 @@
 	}
 
 	#home div > p {
-  		padding-left: 118px;
+  		padding-left: 31%;
 	}
 
 	#corazonCurioso .carousel-control.left {
-		top: 50%;
-		left: 54px;
+		top: 67%;
+  		left: 16%;
 	}
 
 	#corazonCurioso .carousel-control.right {
-		right: 19%;
-		margin-top: 20%;
+		right: 17%;
+		margin-top: 68%;
 	}
 
 	#corazonCurioso .carousel-control.right span {
@@ -68,6 +114,72 @@
 		position: absolute;
 		top: 11px;
 		left: 35px;
+	}
+
+	#coraZona .section1, #teQuieroVerde .section5 > .step1, #teQuieroVerde .section5 > .step2, #teQuieroVerde .section5 > .step3, #teQuieroVerde .section5 > .step4, #teQuieroVerde .section3, #teQuieroVerde .section1, #corazonCurioso .section1, #buenLatido .section1, #buenLatido .section2, #buenLatido .section3, #buenLatido .section4, #buenLatido .section5 {
+  		padding: 20px;
+	}
+
+	#teQuieroVerde .section1 p, #teQuieroVerde .section3 p, #teQuieroVerde .section4 p, #teQuieroVerde .section5 p {
+  		font-size: 15px;
+  		margin-top: 15px;
+  		line-height: 15px;
+	}
+
+	h1 > .title2, h1 > .title3 { /* nuevo */
+  		/*line-height: 46px;*/
+  		line-height: 31px;
+	}
+
+	.step1 > h1 .title2, .step2 > h1 .title2, .step3 > h1 .title2, .step4 > h1 .title2 {
+		font-size: 188%;
+		line-height: 46px; 
+	}
+
+	#teQuieroVerde .section5 > .step1 > p, #teQuieroVerde .section5 > .step2 > p, #teQuieroVerde .section5 > .step3 > p, #teQuieroVerde .section5 > .step4 > p {
+		font-size: 20px;
+  		margin-bottom: 134px;
+  		line-height: 19px;
+	}
+	
+	#corazonCurioso .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  		margin-left: -72%;
+		width: 250%;
+		max-width: 250%;
+	}
+
+	#corazonCurioso .section1 > p, #buenLatido .section1 p, #buenLatido .section2 > p, #buenLatido .section3 > p, #buenLatido .section4 > p, #coraZona p {
+	  	font-size: 15px;
+	  	line-height: 15px;
+	}
+
+	#buenLatido .section2 > p, #buenLatido .section3 > p, #buenLatido .section4 > p {
+	  	margin-bottom: 50px;
+	}
+
+	#buenLatido .section2 > h1, #buenLatido .section3 > h1, #buenLatido .section4 > h1 {
+	  	margin-bottom: 13px;
+	}
+
+	#buenLatido .section5 > p{
+  		font-size: 20px;
+  		line-height: 19px;
+	}
+
+	#coraZona > #slide1 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  		margin-left: -72%;
+		width: 250%;
+		max-width: 250%;
+	}
+
+	#coraZona > #slide2 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  		margin-left: -72%;
+		width: 250%;
+		max-width: 250%;
+	}
+
+	#home .logo {
+  		height: 478px;
 	}
 }
 
@@ -82,7 +194,7 @@
 	}
 
 	#home div > p {
-  		padding-left: 215px;
+  		padding-left: 35%;
 	}
 
 	#corazonCurioso .carousel-control.left {
@@ -175,7 +287,7 @@
 
 @media only screen and (min-width : 604px) and (max-width : 768px) {
 	#home div > p {
-  		padding-left: 44px;
+  		padding-left: 48%;
 	}
 
 	#corazonCurioso .carousel-control.left {
@@ -203,7 +315,7 @@
 
 @media only screen and (min-width : 769px) and (max-width : 966px) {
 	#home div > p {
-  		padding-left: 70px;
+  		padding-left: 23%;
 	}
 
 	#corazonCurioso .carousel-control.left {
@@ -259,12 +371,12 @@
 
 @media only screen and (min-width : 1025px) and (max-width : 1680px) {
 	#home div > p {
-  		padding-left: 175px;
+  		padding-left: 31%;
 	}
 
 	#corazonCurioso .carousel-control.left {
 		top: 67.5%;
-  		left: 450px;
+  		left: 35%;
 	}
 
 	#corazonCurioso .carousel-control.right {
@@ -350,7 +462,7 @@
 /* mac 13" */
 @media only screen and (min-width : 1280px) and (max-width : 1280px) {
 	#home div > p {
-		padding-left: 37%;
+		padding-left: 35%;
 	}
 }
 

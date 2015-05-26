@@ -252,7 +252,7 @@ a.next {
 }
 
 #teQuieroVerde .section2 {
-	height: 467px;
+	height: 400px;
 }
 
 #teQuieroVerde .section2 > img.heart {
@@ -470,4 +470,30 @@ a.next {
 #corazonCurioso .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   	margin: 0 auto;
 	width: 100%;
+}
+
+#arrow {
+	bottom: 20px;
+	color: #fff;
+	cursor: pointer;
+	position: fixed;
+	right: 0px;
+	width: 50px;
+}
+
+#arrow > img {
+	width: 65%;
+}
+
+#buenLatido .section2 > p, #buenLatido .section3 > p, #buenLatido .section4 > p {
+  	margin-bottom: 50px;
+}
+
+#buenLatido .section2 > h1, #buenLatido .section3 > h1, #buenLatido .section4 > h1 {
+  	margin-bottom: 13px;
+}
+
+#buenLatido .section5 > p{
+	font-size: 20px;
+	line-height: 19px;
 }
