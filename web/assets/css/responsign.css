@@ -367,6 +367,10 @@
 		top: 11px;
 		left: 35px;
 	}
+
+	#teQuieroVerde .section3 ,#teQuieroVerde .section5 > .step1, #teQuieroVerde .section5 > .step2, #teQuieroVerde .section5 > .step3, #teQuieroVerde .section5 > .step4 {
+	  	padding: 29px;
+	}
 }
 
 @media only screen and (min-width : 1025px) and (max-width : 1680px) {
@@ -426,7 +430,11 @@
 @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
 	/* Styles */
 	#home div > p {
-  		padding-left: 118px;
+  		padding-left: 30%;
+	}
+
+	#teQuieroVerde .section3 ,#teQuieroVerde .section5 > .step1, #teQuieroVerde .section5 > .step2, #teQuieroVerde .section5 > .step3, #teQuieroVerde .section5 > .step4 {
+	  	padding: 29px;
 	}
 }
 

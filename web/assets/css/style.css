@@ -128,7 +128,8 @@ h1 > .title3{
 }
 
 h1 > .title2, h1 > .title3{
-	line-height: 74px;
+	line-height: 78px;
+	  /*line-height: 136px;*/
 }
 
 .title1, .title2, .title3{
@@ -222,6 +223,7 @@ a.next {
 #home .logotipo{
 	margin-bottom: 10px;
 	width: 450px;
+	padding-top: 5%;
 }
 
 #home .logo{

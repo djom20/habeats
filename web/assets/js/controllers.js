@@ -78,8 +78,8 @@ Appc.controller('HomeCtrl', ['$scope', '$http', '$location',
                 id: 4,
                 index: 5,
                 name: {
-                    title1: 'ensalada',
-                    title2: 'de',
+                    title1: '',
+                    title2: 'ensalada',
                     title3: 'pollo y espinaca'
                 },
                 text: 'La espinaca ayuda a bajar el colesterol y es buena para fortalecer la circulación.',
@@ -94,8 +94,8 @@ Appc.controller('HomeCtrl', ['$scope', '$http', '$location',
                 id: 5,
                 index: 6,
                 name: {
-                    title1: 'ensalada',
-                    title2: 'de',
+                    title1: '',
+                    title2: 'ensalada',
                     title3: 'picatuna'
                 },
                 text: 'El pimentón ayuda a reducir el riesgo de inflamación a nivel vascular.',
